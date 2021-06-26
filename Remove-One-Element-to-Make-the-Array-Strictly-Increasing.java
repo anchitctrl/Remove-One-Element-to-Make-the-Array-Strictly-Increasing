@@ -3,7 +3,7 @@ class Solution {
     int count = 0;
     int index = -1;
     int n=nums.length;
-    for(int i = 1; i < n - 1; i++){
+    for(int i = 1; i <= n - 1; i++){
         if (nums[i - 1] >= nums[i]){
             count++;
             index = i;
